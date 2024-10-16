@@ -1,108 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>skills</title>
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Single Page CV of Austin Hill, a Software Engineer." />
-    <meta name="keywords" content="Frontend Developer, HTML, CSS, JavaScript, Resume, Web Development" />
-    <meta name="author" content="Austin Hill" />
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Austin Hill - Software Engineer" />
-    <meta property="og:description" content="Single Page CV of Austin Hill, a Software Engineer." />
-    <meta property="og:image"
-        content="https://res.cloudinary.com/duidrgg1k/image/upload/v1725421776/male-technologist_n0fbey.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://austinhill.dev" />
-    <!-- Favicon -->
-    <link rel="icon" href="https://austinhill.dev/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML-only website">
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        
-        <h1>Developer Name</h1>
-        <h2>Fontend Developer</h2>
-        <div class="contact-info">
-            <address>
-                51 ม.3 <br />
-                Phattharung City 93110 
-                <p>(+66) 62 480 4342</p>
-                <p>Army@example.com</p>
-            </address>
+        <div class="logo">
+            <img width="64" src="d:\Dive\OneDrive\图片\Proflie\รูปคู่รถ.jpg" alt="logo">
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="projects.html">โปรเจ็ค</a></li>
+                <li><a href="articles.html">อื่นๆ</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="skills">
-            <h3 class="section-title">Skills</h3>
-            <p>
-                HTML, CSS, JavaScript, TypeScript, React, Agile Methodologies,
-                Accessibility, Figma, Git, Jira
-            </p>
+        <section class="intro">
+          <h1>Software Engineer</h1>
+          <p>
+            I build things for the web.
+          </p>
         </section>
-
+  
+        <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
+          </ul>
+        </section>
+  
+        <section class="work-experience">
+          <h2>Work Experience</h2>
+          <article>
+            <h3>roadmap.sh</h3>
+            <p>Solved all the frontend projects</p>
+            <a href="projects.html">Visit my Profile</a>
+          </article>
+          <article>
+            <h3>OpenSource Work</h3>
+            <p>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
+            <a href="https://github.com/akinghill">Visit my GitHub Profile</a>
+          </article>
+        </section>
+  
         <section class="education">
-            <h3 class="section-title">Education</h3>
-            <h4>VRU University,Computer Science</h4>
-            <p>
-                January 2022 to May 2023<br />
-                I gained experience in software engineering by analyzing and
-                implementing software systems, developing object-oriented Java
-                programs, and effectively managing data using SQL.
-            </p>
+          <h2>Education</h2>
+          <p>
+            Undergraduate in Computer Science, studies included the following:
+          </p>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human-Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+          </ul>
         </section>
-
-        <section class="experience">
-            <h3 class="section-title">Experience</h3>
-            <article>
-                <h4>Job Title </h4>
-                <p>ยังไม่มีประสบการณ์ ในการทำงาน</p>
-                <ul>
-                    <li>
-                        -
-                    </li>
-                    <li>
-                        -
-                    </li>
-                    <li>
-                        -
-                    </li>
-                </ul>
-                <p>
-                    Skills: , TypeScript, Figma, Design Systems, Enterprise
-                    Software    
-                </p>
-            </article>
-
-            <article>
-                <h4>Banyan Labs & Persevere, TN - Lead Instructor & Developer</h4>
-                <p>August 2019 - March 2022</p>
-                <ul>
-                    <li>
-                        ร่างและส่งมอบการประเมินหลักสูตรสำหรับค่ายฝึกอบรมการเขียนโค้ดแบบเต็มรูปแบบ
-                    </li>
-                    <li>
-                        --
-                    </li>
-                    <li>
-                        -
-                    </li>
-                </ul>
-                <p>
-                    Skills: JavaScript, database,
-                    Methodologies
-            </article>
-        </section>
-
-        <section class="internet">
-            <h3 class="section-title">Across the Internet</h3>
-            <a href="https://github.com/ArmyJKW">.github</a><br />
-            
-        </section>
-    </main>
-</body>
-
-</html>
+  
+        <aside class="reviews">
+          <h2>Feedback from Peers</h2>
+          <blockquote>
+            <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+          <blockquote>
+            <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+          <blockquote>
+            <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+        </aside>
+      </main>
+  
+      <footer>
+        <p>&copy; all rights reserved 2024</p>
+      </footer>
+  
+    </body>
+  </html>
